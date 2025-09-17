@@ -1,0 +1,122 @@
+<html>
+<title>MapleCloud Animation Studio</title>
+<link rel="icon" type="image/x-icon" href="SiteData/Photos/Logo.png">
+<style>
+p {
+	font-family: sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+h1 {
+	font-family: sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+h2 {
+	font-family: sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+h3 {
+	font-family: sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+h4 {
+	font-family: sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+div {
+	background-image: url("SiteData/Photos/Background2.png");
+	border-radius: 1cap;
+}
+.div2 {
+	background-image: url("SiteData/Photos/Background3.png");
+	border-radius: 1cap;
+}
+body {
+	background-image: url("SiteData/Photos/MainBackground.png");
+}
+img {
+	border-radius: 1cap;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+img:hover {
+    transform: scale(1.2);
+}
+.logo {
+    border-radius: 1cap;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    transition: transform 0.3s;
+    animation: fadeIn2 1.5s ease forwards;
+}
+@keyframes fadeIn2 {
+ to {
+    opacity: 1;
+    transform: scale(1);
+ }
+
+}
+.logo:hover {
+    transform: scale(1);
+}
+.navigatebutton {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 0.3s;
+    animation: fadeIn 1.5s ease forwards;
+}
+@keyframes fadeIn {
+ to {
+    opacity: 1;
+    transform: translateY(0px)
+ }
+
+}
+.navigatebutton:hover {
+    transform: scale(1.2);
+    filter: brightness(110%);
+}
+.whoopscharacter {
+    opacity: 0;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    transform: translateY(50px) scale(0.8);
+    transition: transform 0.3s;
+    animation: fadeIn 1.5s ease forwards;
+}
+@keyframes fadeIn {
+ to {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+ }
+
+}
+.whoopscharacter:hover {
+    transform: translateY(0px) scale(1);
+}
+</style>
+<head>
+<audio autoplay>
+    <source src="SiteData/Sounds/Whoops.mp3" type="audio/mpeg">
+</audio>
+<audio autoplay loop>
+    <source src="SiteData/Sounds/Default.mp3" type="audio/mpeg">
+</audio>
+<div>
+<center><image src="SiteData/Photos/Logo.png"  width="150" height="150" class=logo></image>
+<center><image src="SiteData/Photos/Logo2.png"  width="190" height="50" class=logo></image>
+<center><image src="SiteData/Photos/Logo3.png"  width="150" height="30" class=logo></image>
+<center>
+</center>
+</div>
+</head>
+<body>
+<br>
+<center>
+<img src="SiteData/Photos/WhoopsBobby.png" width="200" height="390" class="whoopscharacter"></img>
+<h1>Whoops, This Page Doesnt Exist or This Episode is not on Yet</h1>
+<h4>Go Back <a href="index.html"><img src="SiteData/Icons/Home.png" width="70" height="70" class="navigatebutton"></img></a>?</h4>
+</center>
+<div>
+<center><p>MapleCloud 2025 Version 0.0.3</p></center>
+</div>
+</body>
+</html>
